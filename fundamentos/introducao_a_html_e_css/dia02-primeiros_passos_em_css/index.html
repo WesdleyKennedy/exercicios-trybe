@@ -10,11 +10,20 @@
       }
 
       body {
-        background-color:rgb(43, 33, 33) ;
+        background-color:rgb(43, 33, 33) ; font-size: 16px;
       }
      
       ul {
-        background-color: rgb(255, 0, 0);
+        background-color: rgba(255, 255, 255, 0.74); line-height: 30px;
+        text-align:center; text-decoration-line: underline;
+      }
+
+      h1 {
+        font-family: sans-serif;
+      }
+
+      p{
+        font-weight: 600; font-size: 3em;
       }
 
       .list_p_style {
@@ -22,18 +31,27 @@
       }
 
       #banana {
-        color: rgb(0, 255, 0);
+        color: rgb(229, 255, 0);
+      }
+      
+      #maça {
+        color: red;
       }
 
+      #goiaba {
+        color: green;
+      }
+
+      
     </style>
   </head>
   <body>
     <h1>Frutas</h1>
     <p class="list_p_style">Qual é a sua fruta favorita?</p>
     <ul class="list_p_style">
-      <li>Maçã</li>
+      <li id="maça">Maçã</li>
       <li id="banana">Banana</li>
-      <li>Goiaba</li>
+      <li id="goiaba">Goiaba</li>
     </ul>
   </body>
 </html>
